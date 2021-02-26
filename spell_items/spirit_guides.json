@@ -1,0 +1,77 @@
+[
+{
+  "id": "spirit_guide_tiger",
+  "type": "GENERIC",
+  "name": "The four corners: Tiger",
+  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one is dedicated to nature's fury, the tiger.",
+  "weight": 450,
+  "volume": "750 ml",
+  "symbol": "B",
+  "color": "brown",
+  "use_action": {
+    "type": "learn_spell",
+    "//": "list of spells you can learn from the item",
+    "spells": [ "tiger_ferocity", "tiger_spirit" ]
+  }
+},
+{
+  "id": "spirit_guide_turtle",
+  "type": "GENERIC",
+  "name": "The four corners: Turtle",
+  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one is dedicated to nature's resilience, the turtle.",
+  "weight": 450,
+  "volume": "750 ml",
+  "symbol": "B",
+  "color": "brown",
+  "use_action": {
+    "type": "learn_spell",
+    "//": "list of spells you can learn from the item",
+    "spells": [ "turtle_guard", "turtle_spirit" ]
+  }
+},
+{
+  "id": "spirit_guide_bear",
+  "type": "GENERIC",
+  "name": "The four corners: Bear",
+  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one is dedicated to nature's might, the bear.",
+  "weight": 450,
+  "volume": "750 ml",
+  "symbol": "B",
+  "color": "brown",
+  "use_action": {
+    "type": "learn_spell",
+    "//": "list of spells you can learn from the item",
+    "spells": [ "bear_might", "bear_spirit" ]
+  }
+},
+{
+  "id": "spirit_guide_phoenix",
+  "type": "GENERIC",
+  "name": "The four corners: Phoenix",
+  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one is dedicated to nature's flame, the phoenix.",
+  "weight": 450,
+  "volume": "750 ml",
+  "symbol": "B",
+  "color": "brown",
+  "use_action": {
+    "type": "learn_spell",
+    "//": "list of spells you can learn from the item",
+    "spells": [ "phoenix_wisdom", "phoenix_spirit" ]
+  }
+},
+{
+  "id": "spirit_guide_dragon",
+  "type": "GENERIC",
+  "name": "Torn Book",
+  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one has had most of its pages torn off, the remaining ones filled with rushed writing and warnings.",
+  "weight": 450,
+  "volume": "750 ml",
+  "symbol": "B",
+  "color": "brown",
+  "use_action": {
+    "type": "learn_spell",
+    "//": "list of spells you can learn from the item",
+    "spells": [ "bear_might", "bear_spirit" ]
+  }
+}
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "type": "material",
+    "id": "turtle_carapace",
+    "name": "Carapace",
+    "density": 20,
+    "specific_heat_liquid": 0.82,
+    "specific_heat_solid": 0.45,
+    "latent_heat": 273,
+    "bash_resist": 12,
+    "cut_resist": 14,
+    "bullet_resist": 10,
+    "acid_resist": 3,
+    "fire_resist": 8,
+    "elec_resist": 5,
+    "chip_resist": 13,
+    "dmg_adj": [ "scratched", "dented", "smashed", "shattered" ],
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "scratched"
+  },
+  {
+    "type": "material",
+    "id": "fire",
+    "name": "Fire",
+    "density": 1,
+    "bash_resist": 0,
+    "cut_resist": 0,
+    "bullet_resist": 0,
+    "acid_resist": 0,
+    "fire_resist": 0,
+    "elec_resist": 0,
+    "chip_resist": 0,
+    "dmg_adj": [ "scratched", "cut", "cracked", "shattered" ],
+    "bash_dmg_verb": "dented",
+    "cut_dmg_verb": "gouged",
+    "fuel_data": { "energy": 1 }
+  }
+]

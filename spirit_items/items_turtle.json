@@ -1,0 +1,65 @@
+[
+  {
+    "id": "turtle_spirit_shell",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str_sp": "turtle spirit shell" },
+    "description": "A manifestation of the unbreakable nature of the turtle spirit.",
+    "weight": "8000 g",
+    "volume": "4 L",
+    "material": [ "turtle_carapace" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "head", "mouth", "eyes", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "coverage": 80,
+    "encumbrance": 10,
+    "warmth": 0,
+    "material_thickness": 1,
+    "environmental_protection": 1,
+    "flags": [ "ONLY_ONE", "OVERSIZE", "PERSONAL", "STURDY", "TRADER_AVOID", "NO_TAKEOFF" ]
+  },
+  {
+    "id": "turtle_spirit_shell_avatar",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str_sp": "turtle spirit shell" },
+    "description": "A true manifestation of the absolute unbreakable nature of the turtle spirit.",
+    "weight": "10000 g",
+    "volume": "4 L",
+    "material": [ "turtle_carapace" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "head", "mouth", "eyes", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "coverage": 95,
+    "encumbrance": 15,
+    "warmth": 0,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "ONLY_ONE", "OVERSIZE", "PERSONAL", "STURDY", "TRADER_AVOID", "NO_TAKEOFF" ]
+  },
+  {
+    "id": "avatar_turtle",
+    "type": "ARMOR",
+    "name": "turtle avatar",
+    "description": "You have fully surrendered to the unyielding spirit of the turtle.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 4000,
+    "symbol": "o",
+    "color": "green",
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": 3 },
+            { "value": "DEXTERITY", "add": -3 }
+          ],
+          "mutations": [ "MUT_TOUGH2", "SCALES", "DISRESISTANT", "INFRESIST", "PAINREC3", "LIZ_EYE" ]
+        }
+      ]
+    }
+  }
+]
