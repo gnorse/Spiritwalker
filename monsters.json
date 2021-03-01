@@ -2,8 +2,8 @@
   {
     "id": "mon_spiritwalker_tiger",
     "type": "MONSTER",
-    "name": "mad spiritwalker",
-    "description": "A spiritwalker that has been consumed by the spirit they once controlled. This one bears the mark of the tiger spirit.",
+    "name": { "str": "mad spiritwalker" },
+    "description": "A spiritwalker that has been consumed by the spirit they once harnessed. This one bears the mark of the tiger spirit.",
 	"default_faction": "mad_spiritwalkers",
 	"bodytype": "human",
 	"species": [ "HUMAN" ],
@@ -11,17 +11,17 @@
 	"volume": "62500 ml",
 	"material": [ "flesh" ],
 	"symbol": "@",
-	"color": "orange",
+	"color": "yellow",
 	"aggression": 70,
 	"vision_day": 35,
 	"vision_night": 5,
 	"morale": 100,
-    "hp": 350,
-	"melee_skill": 6,
+    "hp": 150,
+	"melee_skill": 7,
 	"dodge": 3,
     "melee_dice": 4,
-    "melee_dice_sides": 9,
-    "melee_cut": 4,
+    "melee_dice_sides": 10,
+    "melee_cut": 5,
     "armor_bash": 6,
     "armor_cut": 8,
     "armor_bullet": 4,
@@ -37,15 +37,15 @@
       "PATH_AVOID_DANGER_2"
     ],
     "special_attacks": [
-      { "type": "LUNGE", "cooldown": 10 },
-      [ "scratch", 3 ]
+      [ "LUNGE", 40 ],
+      [ "scratch", 10 ]
     ]
   },
   {
     "id": "mon_spiritwalker_bear",
     "type": "MONSTER",
     "name": "mad spiritwalker",
-    "description": "A spiritwalker that has been consumed by the spirit they once controlled. This one bears the mark of the bear spirit.",
+    "description": "A spiritwalker that has been consumed by the spirit they once harnessed. This one bears the mark of the bear spirit.",
 	"default_faction": "mad_spiritwalkers",
 	"bodytype": "human",
 	"species": [ "HUMAN" ],
@@ -58,8 +58,8 @@
 	"morale": 100,
 	"vision_day": 25,
 	"vision_night": 10,	
-    "hp": 350,
-	"melee_skill": 5,
+    "hp": 150,
+	"melee_skill": 6,
 	"dodge": 2,
     "melee_dice": 4,
     "melee_dice_sides": 7,
@@ -79,17 +79,16 @@
       "PATH_AVOID_DANGER_2"
     ],
     "special_attacks": [
-      { "type": "GRAB", "cooldown": 10 },
-	  { "type": "SMASH", "cooldown": 10 },
-      [ "slam", 3 ],
-      { "type": "spell", "spell_data": { "id": "dragon_breath_black", "min_level": 22 }, "cooldown": 30 }
-    ]
+      [ "GRAB", 20 ],
+	  [ "SMASH", 50 ],
+      [ "slam", 10 ]
+    ]	
   },
   {
     "id": "mon_spiritwalker_turtle",
     "type": "MONSTER",
     "name": "mad spiritwalker",
-    "description": "A spiritwalker that has been consumed by the spirit they once controlled. This one bears the mark of the turtle spirit.",
+    "description": "A spiritwalker that has been consumed by the spirit they once harnessed. This one bears the mark of the turtle spirit.",
 	"default_faction": "mad_spiritwalkers",
 	"bodytype": "human",
 	"species": [ "HUMAN" ],
@@ -102,8 +101,8 @@
 	"vision_day": 35,
 	"vision_night": 5,
 	"morale": 100,
-    "hp": 400,
-	"melee_skill": 4,
+    "hp": 200,
+	"melee_skill": 5,
 	"regenerates": 5,
 	"dodge": 1,
     "melee_dice": 4,
@@ -124,14 +123,14 @@
       "PATH_AVOID_DANGER_2"
     ],
     "special_attacks": [
-      { "type": "GRAB_DRAG", "cooldown": 8 }
+      [ "GRAB_DRAG", 10 ]
     ]
   },
   {
     "id": "mon_spiritwalker_phoenix",
     "type": "MONSTER",
     "name": "mad spiritwalker",
-    "description": "A spiritwalker that has been consumed by the spirit they once controlled. This one bears the mark of the phoenix spirit.",
+    "description": "A spiritwalker that has been consumed by the spirit they once harnessed. This one bears the mark of the phoenix spirit and seems oddly calm.",
 	"default_faction": "mad_spiritwalkers",
 	"bodytype": "human",
 	"species": [ "HUMAN" ],
@@ -140,10 +139,10 @@
 	"material": [ "flesh" ],
 	"symbol": "@",
 	"color": "red",
-	"aggression": 50,
+	"aggression": 20,
 	"morale": 100,
-    "hp": 350,
-	"melee_skill": 5,
+    "hp": 150,
+	"melee_skill": 6,
 	"vision_day": 30,
 	"luminance": 2,
 	"regenerates": 2,
@@ -169,7 +168,7 @@
 	  "REVIVES"
     ],
     "special_attacks": [
-      { "type": "FLAMETHROWER", "cooldown": 14 }
-    ]
+      [ "FLAMETHROWER", 40 ]
+    ]	
   }
 ]

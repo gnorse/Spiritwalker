@@ -62,7 +62,7 @@
 {
   "id": "spirit_guide_dragon",
   "type": "GENERIC",
-  "name": "Torn Book",
+  "name": "Torn book",
   "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one has had most of its pages torn off, the remaining ones filled with rushed writing and warnings.",
   "weight": 450,
   "volume": "750 ml",
@@ -71,7 +71,7 @@
   "use_action": {
     "type": "learn_spell",
     "//": "list of spells you can learn from the item",
-    "spells": [ "bear_might", "bear_spirit" ]
+    "spells": [ "dragon_pride", "dragon_spirit" ]
   }
 }
 ]
