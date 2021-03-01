@@ -1,26 +1,5 @@
 [
   {
-    "type": "ammunition_type",
-    "id": "phoenix_fire",
-    "name": "phoenix fire",
-    "default": "phoenix_fire"
-  },
-  {
-    "type": "AMMO",
-    "id": "phoenix_fire",
-    "category": "spare_parts",
-    "price": 1000,
-    "name": { "str_sp": "phoenix fire" },
-    "symbol": "=",
-    "color": "yellow",
-    "description": "Charges for flames of the phoenix.",
-    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
-    "volume": "100 ml",
-    "ammo_type": "phoenix_fire",
-    "material": [ "fire" ],
-    "count": 10
-  },
-  {
     "id": "phoenix_spirit_flames",
     "type": "TOOL",
     "name": { "str_sp": "phoenix spirit flames" },
@@ -50,9 +29,9 @@
     ],
     "techniques": [ "WBLOCK_1", "SPIN" ],
     "charges_per_use": 1,
-    "ammo": [ "phoenix_fire" ],
+    "ammo": [ "spirit_essence" ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "20 s", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "phoenix_fire": 1 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "spirit_essence_phoenix": 1 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "phoenix_spirit_fire", "no_fail": true, "level": 10, "need_wielding": true }
   },
   {
@@ -85,9 +64,9 @@
     ],
     "techniques": [ "WBLOCK_1", "SPIN" ],
     "charges_per_use": 1,
-    "ammo": [ "phoenix_fire" ],
+    "ammo": [ "spirit_essence" ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "20 s", "regenerate_ammo": true } },
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "phoenix_fire": 2 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "spirit_essence_phoenix": 2 } } ],
     "use_action": { "type": "cast_spell", "spell_id": "phoenix_spirit_fire_avatar", "no_fail": true, "level": 10, "need_wielding": true }
   },
   {
