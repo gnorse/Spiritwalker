@@ -1,0 +1,22 @@
+[
+  {
+    "id": "spirit_control",
+    "type": "SPELL",
+    "name": "Spirit Control",
+    "description": "The more spirits you summon in a short amount of time, the more feral you become.",
+    "spell_class": "SPIRITWALKER",
+    "difficulty": 1,
+    "flags": [ "NO_LEGS" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "valid_targets": [ "self" ],
+    "effect": "attack",
+    "effect_str": "spirit_control",
+    "shape": "blast",
+    "duration_increment": 2000,
+	"energy_source": "MANA",
+    "max_level": 1,
+    "min_duration": 6000,
+    "max_duration": 12000
+  }
+]

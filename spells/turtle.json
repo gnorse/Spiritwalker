@@ -66,7 +66,8 @@
     "final_casting_time": 100,
     "max_level": 10,
     "min_duration": 6000,
-    "max_duration": 12000
+    "max_duration": 12000,
+    "extra_effects": [ { "id": "spirit_control" } ]
   },
   {
     "id": "turtle_guard_avatar",
@@ -85,7 +86,8 @@
     "duration_increment": 6000,
     "max_level": 1,
     "min_duration": 60000,
-    "max_duration": 150000
+    "max_duration": 150000,
+    "extra_effects": [ { "id": "spirit_control" } ]
   },
   {
     "id": "turtle_avatar",
