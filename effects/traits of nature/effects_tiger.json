@@ -1,0 +1,43 @@
+[
+  {
+    "type": "effect_type",
+    "id": "spirit_tiger",
+    "name": [ "Tiger spirit: Ferocity" ],
+    "desc": [ "The power of the ferocious tiger fills you with insatiable hunger. You feel your blood running hot." ],
+    "apply_message": "The power of the ferocious tiger fills you with insatiable hunger. You feel your blood running hot.",
+    "remove_message": "You feel the tiger spirit's loaned power leaving your body.",
+    "rating": "good",
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "base_mods": { "dex_mod": [ 2 ], "per_mod": [ -1 ], "speed_mod": [ 5 ] },
+    "scaling_mods": { "dex_mod": [ 1 ], "per_mod": [ -2 ], "speed_mod": [ 3 ] },
+	"removes_effects": [ "spirit_bear", "spirit_lynx", "spirit_turtle", "spirit_bear_tamed", "spirit_tiger_tamed", "spirit_turtle_tamed", "spirit_lynx_tamed" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "spirit_tiger_tamed",
+    "name": [ "Tamed tiger spirit: Ferocity" ],
+    "desc": [ "The power of the ferocious tiger fills you with insatiable hunger and no longer attempts to wrestle control from you. You feel your blood running hot." ],
+    "apply_message": "The power of the ferocious tiger fills you with insatiable hunger and no longer attempts to wrestle control from you. You feel your blood running hot.",
+    "remove_message": "You feel the tiger spirit's loaned power leaving your body.",
+    "rating": "good",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "dex_mod": [ 2 ], "speed_mod": [ 3 ] },
+    "scaling_mods": { "dex_mod": [ 1 ], "speed_mod": [ 2 ] },
+	"removes_effects": [ "spirit_bear", "spirit_lynx", "spirit_turtle", "spirit_tiger" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "spirit_tiger_avatar",
+    "name": [ "Tiger avatar: Ferocity" ],
+    "desc": [ "The power of the ferocious tiger fills you with insatiable hunger. You feel your blood running hot." ],
+    "apply_message": "The power of the ferocious tiger fills you with insatiable hunger. You feel your blood running hot.",
+    "remove_message": "You feel the tiger spirit's avatar leaving your body.",
+    "rating": "good",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "base_mods": { "dex_mod": [ 3 ], "per_mod": [ -2 ], "int_mod": [ -2], "speed_mod": [ 10 ] },
+	"removes_effects": [ "spirit_bear", "spirit_lynx", "spirit_turtle", "spirit_tiger", "spirit_bear_tamed", "spirit_tiger_tamed", "spirit_turtle_tamed", "spirit_lynx_tamed" ]
+  }
+]

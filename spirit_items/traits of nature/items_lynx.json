@@ -1,0 +1,85 @@
+[
+  {
+    "id": "lynx_spirit_claws",
+    "type": "GENERIC",
+    "name": { "str_sp": "lynx spirit claws" },
+    "description": "A manifestation of the lynx spirit.",
+    "weight": "500 g",
+    "volume": "500 ml",
+    "price": 1,
+    "bashing": 1,
+    "cutting": 6,
+	"to_hit": 2,
+    "material": [ "steel" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 2 ], [ "BUTCHER", 10 ] ],
+    "flags": [
+      "UNARMED_WEAPON",
+      "UNBREAKABLE_MELEE",
+      "NONCONDUCTIVE",
+      "NO_UNWIELD",
+      "MAGIC_FOCUS",
+      "TRADER_AVOID",
+      "NO_REPAIR",
+      "NO_SALVAGE",
+	  "NO_TAKEOFF"
+    ],
+    "techniques": [ "RAPID" ]
+  },
+  {
+    "id": "lynx_spirit_claws_avatar",
+    "type": "GENERIC",
+    "name": { "str_sp": "lynx avatar claws" },
+    "description": "A true manifestation of the lynx spirit.",
+    "weight": "450 g",
+    "volume": "450 ml",
+    "price": 1,
+    "bashing": 2,
+    "cutting": 10,
+	"to_hit": 3,
+    "material": [ "steel" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "qualities": [ [ "CUT", 2 ], [ "CUT_FINE", 2 ], [ "BUTCHER", 18 ] ],
+    "flags": [
+      "UNARMED_WEAPON",
+      "UNBREAKABLE_MELEE",
+      "NONCONDUCTIVE",
+      "NO_UNWIELD",
+      "MAGIC_FOCUS",
+      "TRADER_AVOID",
+      "NO_REPAIR",
+      "NO_SALVAGE",
+	  "NO_TAKEOFF"
+    ],
+    "techniques": [ "RAPID", "WBLOCK_1" ]
+  },
+  {
+    "id": "avatar_lynx",
+    "type": "ARMOR",
+    "name": "lynx avatar",
+    "description": "You have fully surrendered to the clever spirit of the lynx.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 4000,
+    "symbol": "o",
+    "color": "red",
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": -4 },
+            { "value": "DEXTERITY", "add": 3 },
+            { "value": "INTELLIGENCE", "add": 6 },
+            { "value": "PERCEPTION", "add": 2 }
+          ],
+          "mutations": [ "PRED1", "CLAWS", "WHISKERS", "SNARL", "FEL_NV", "FANGS", "LYNX_FUR", "FELINE_EARS" ]
+        }
+      ]
+    }
+  }
+]

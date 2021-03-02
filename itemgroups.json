@@ -33,13 +33,23 @@
     ]
   },
   {
+    "id": "mon_spiritwalker_lynx_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+	  { "item": "spirit_essence_lynx", "count": [ 1, 6 ], "prob": 90 },
+      { "item": "spirit_fang_lynx", "prob": 25 },
+      { "item": "spirit_guide_lynx", "prob": 10 },
+      { "group": "clothing_outdoor_set", "prob": 80, "damage-min": 1, "damage-max": 4 }
+    ]
+  },
+  {
     "id": "mon_spiritwalker_phoenix_drops",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
 	  { "item": "spirit_essence_phoenix", "count": [ 1, 6 ], "prob": 90 },
       { "item": "spirit_fang_phoenix", "prob": 25 },
-      { "item": "spirit_guide_phoenix", "prob": 10 },
       { "group": "clothing_outdoor_set", "prob": 80, "damage-min": 1, "damage-max": 4 }
     ]
   }

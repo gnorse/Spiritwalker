@@ -20,7 +20,19 @@
     "purifiable": false,
     "valid": false,
     "spells_learned": [ [ "spiritwalker_tiger_rune", 1 ] ],
-    "cancels": [ "SPIRITWALKER_BEAR", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON" ]
+    "cancels": [ "SPIRITWALKER_BEAR", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON", "SPIRITWALKER_LYNX" ]
+  },
+  {
+    "type": "mutation",
+    "id": "SPIRITWALKER_LYNX",
+    "name": "Lynx-possessed Spiritwalker",
+    "points": 0,
+    "description": "A spiritwalker that has, willingly or not, given in to the clever nature of the lynx spirit.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "spells_learned": [ [ "spiritwalker_lynx_rune", 1 ] ],
+    "cancels": [ "SPIRITWALKER_BEAR", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON", "SPIRITWALKER_TIGER" ]
   },
   {
     "type": "mutation",
@@ -32,7 +44,7 @@
     "purifiable": false,
     "valid": false,
     "spells_learned": [ [ "spiritwalker_turtle_rune", 1 ] ],
-    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_BEAR", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON" ]
+    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_BEAR", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON", "SPIRITWALKER_LYNX" ]
   },
   {
     "type": "mutation",
@@ -44,7 +56,7 @@
     "purifiable": false,
     "valid": false,
     "spells_learned": [ [ "spiritwalker_bear_rune", 1 ] ],
-    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON" ]
+    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_DRAGON", "SPIRITWALKER_LYNX" ]
   },
   {
     "type": "mutation",
@@ -56,7 +68,7 @@
     "purifiable": false,
     "valid": false,
     "spells_learned": [ [ "spiritwalker_phoenix_rune", 1 ] ],
-    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_TURTLE", "SPIRITWALKER_BEAR", "SPIRITWALKER_DRAGON" ]
+    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_TURTLE", "SPIRITWALKER_BEAR", "SPIRITWALKER_DRAGON", "SPIRITWALKER_LYNX" ]
   },
   {
     "type": "mutation",
@@ -68,6 +80,6 @@
     "purifiable": false,
     "valid": false,
     "spells_learned": [ [ "spiritwalker_dragon_rune", 1 ] ],
-    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_BEAR" ]
+    "cancels": [ "SPIRITWALKER_TIGER", "SPIRITWALKER_TURTLE", "SPIRITWALKER_PHOENIX", "SPIRITWALKER_BEAR", "SPIRITWALKER_LYNX" ]
   }  
 ]

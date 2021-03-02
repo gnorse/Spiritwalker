@@ -1,0 +1,85 @@
+[
+  {
+    "id": "bear_spirit_hands",
+    "type": "GENERIC",
+    "name": { "str_sp": "bear spirit paws" },
+    "description": "A manifestation of the might of the bear spirit.",
+    "weight": "1000 g",
+    "volume": "1000 ml",
+    "price": 1,
+    "bashing": 25,
+    "cutting": 0,
+	"to_hit": 1,
+    "material": [ "superalloy" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "qualities": [ [ "HAMMER", 1 ] ],
+    "flags": [
+      "UNARMED_WEAPON",
+      "UNBREAKABLE_MELEE",
+      "NONCONDUCTIVE",
+      "NO_UNWIELD",
+      "MAGIC_FOCUS",
+      "TRADER_AVOID",
+      "NO_REPAIR",
+      "NO_SALVAGE",
+	  "NO_TAKEOFF"
+    ],
+    "techniques": [ "BRUTAL", "tec_break" ]
+  },
+  {
+    "id": "bear_spirit_hands_avatar",
+    "type": "GENERIC",
+    "name": { "str_sp": "bear avatar paws" },
+    "description": "A true manifestation of the unrivaled might of the bear spirit.",
+    "weight": "1500 g",
+    "volume": "1500 ml",
+    "price": 1,
+    "bashing": 35,
+    "cutting": 0,
+	"to_hit": 1,
+    "material": [ "superalloy" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "qualities": [ [ "HAMMER", 1 ] ],
+    "flags": [
+      "UNARMED_WEAPON",
+      "UNBREAKABLE_MELEE",
+      "NONCONDUCTIVE",
+      "NO_UNWIELD",
+      "MAGIC_FOCUS",
+      "TRADER_AVOID",
+      "NO_REPAIR",
+      "NO_SALVAGE",
+	  "NO_TAKEOFF"
+    ],
+    "techniques": [ "BRUTAL", "tec_break", "DEF_DISARM" ]
+  },
+  {
+    "id": "avatar_bear",
+    "type": "ARMOR",
+    "name": "bear avatar",
+    "description": "You have fully surrendered to the unstoppable spirit of the bear.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 4000,
+    "symbol": "o",
+    "color": "red",
+    "flags": [ "PERSONAL", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": 12 },
+            { "value": "DEXTERITY", "add": -3 },
+            { "value": "INTELLIGENCE", "add": -3 },
+            { "value": "PERCEPTION", "add": -3 }
+          ],
+          "mutations": [ "URSINE_EYE", "URSINE_FUR", "PRED2", "GROWL", "URSINE_EARS", "PAWS_LARGE" ]
+        }
+      ]
+    }
+  }
+]

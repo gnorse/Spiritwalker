@@ -45,10 +45,10 @@
   }
 },
 {
-  "id": "spirit_guide_phoenix",
+  "id": "spirit_guide_lynx",
   "type": "GENERIC",
-  "name": "The four corners: Phoenix",
-  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one is dedicated to nature's flame, the phoenix.",
+  "name": "The four corners: Lynx",
+  "description": "An old, tattered book about the spirits that seems to have been passed down for a long time. This one is dedicated to nature's wisdom, the lynx.",
   "weight": 450,
   "volume": "750 ml",
   "symbol": "B",
@@ -56,7 +56,22 @@
   "use_action": {
     "type": "learn_spell",
     "//": "list of spells you can learn from the item",
-    "spells": [ "phoenix_wisdom", "phoenix_spirit" ]
+    "spells": [ "lynx_wisdom", "lynx_spirit" ]
+  }
+},
+{
+  "id": "spirit_guide_tamed",
+  "type": "GENERIC",
+  "name": "Old spiritwalker's note",
+  "description": "A small manual that's been written by an experienced spiritwalker. Inside are details on how to tame the spirits, resulting in somewhat weaker but more controllable and consistent effects.",
+  "weight": 450,
+  "volume": "750 ml",
+  "symbol": "B",
+  "color": "white",
+  "use_action": {
+    "type": "learn_spell",
+    "//": "list of spells you can learn from the item",
+    "spells": [ "tiger_ferocity_tamed", "lynx_wisdom_tamed", "bear_might_tamed", "turtle_guard_tamed" ]
   }
 },
 {

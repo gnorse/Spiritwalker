@@ -61,6 +61,21 @@
   },
   {
     "type": "AMMO",
+    "id": "spirit_essence_lynx",
+    "category": "spare_parts",
+    "price": 1000,
+    "name": { "str_sp": "lynx spirit essence" },
+    "symbol": "=",
+    "color": "blue",
+    "description": "the essence used to harness the power of the spirits of nature. This one is attuned to the wisdom of nature, the spirit of the lynx.",
+    "flags": [ "TRADER_AVOID", "ZERO_WEIGHT" ],
+    "volume": "100 ml",
+    "ammo_type": "spirit_essence_lynx",
+    "material": [ "fire" ],
+    "count": 1
+  },
+  {
+    "type": "AMMO",
     "id": "spirit_essence_phoenix",
     "category": "spare_parts",
     "price": 1000,

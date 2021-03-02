@@ -25,6 +25,12 @@
   },
   {
     "type": "ammunition_type",
+    "id": "spirit_essence_lynx",
+    "name": "lynx spirit essence",
+    "default": "spirit_essence_lynx"
+  },
+  {
+    "type": "ammunition_type",
     "id": "spirit_essence_phoenix",
     "name": "phoenix spirit essence",
     "default": "spirit_essence_phoenix"

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "effect_type",
+    "id": "spirit_bear",
+    "name": [ "Bear spirit: Might" ],
+    "desc": [ "The power of the great bear fills you with raw might. You feel unstoppable." ],
+    "apply_message": "The power of the great bear fills you with raw might. You feel unstoppable.",
+    "remove_message": "You feel the bear spirit's loaned power leaving your body.",
+    "rating": "good",
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ 2 ], "speed_mod": [ 10 ], "dex_mod": [-2], "stamina_chance": [ 2 ], "stamina_min": [ 20 ] },
+    "scaling_mods": { "str_mod": [ 1 ], "dex_mod": [ -1 ], "speed_mod": [ 5 ], "stamina_chance": [ 2 ], "stamina_min": [ 8 ] },
+	"removes_effects": [ "spirit_tiger", "spirit_lynx", "spirit_turtle", "spirit_bear_tamed", "spirit_tiger_tamed", "spirit_turtle_tamed", "spirit_lynx_tamed" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "spirit_bear_tamed",
+    "name": [ "Tamed bear spirit: Might" ],
+    "desc": [ "The power of the great bear fills you with raw might and no longer attempts to wrestle control from you. You feel unstoppable." ],
+    "apply_message": "The power of the great bear fills you with raw might and no longer attempts to wrestle control from you. You feel unstoppable.",
+    "remove_message": "You feel the bear spirit's loaned power leaving your body.",
+    "rating": "good",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ 2 ], "speed_mod": [ 7 ], "stamina_chance": [ 3 ], "stamina_min": [ 20 ] },
+    "scaling_mods": { "str_mod": [ 1 ], "speed_mod": [ 4 ], "stamina_chance": [ 3 ], "stamina_min": [ 8 ] },
+	"removes_effects": [ "spirit_tiger", "spirit_lynx", "spirit_turtle", "spirit_bear" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "spirit_bear_avatar",
+    "name": [ "Bear avatar: Might" ],
+    "desc": [ "The power of the great bear fills you with raw might. You feel unstoppable." ],
+    "apply_message": "The power of the great bear fills you with raw might. You feel unstoppable.",
+    "remove_message": "You feel the bear spirit's avatar leaving your body.",
+    "rating": "good",
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "base_mods": { "str_mod": [ 2 ], "speed_mod": [ 15 ], "dex_mod": [ -2 ], "stamina_chance": [ 2 ], "stamina_min": [ 60 ] },
+    "scaling_mods": { "str_mod": [ 2, 3 ], "dex_mod": [-2, -3], "speed_mod": [ 5, 10 ], "stamina_chance": [ 2 ], "stamina_min": [ 60 ] },
+	"removes_effects": [ "spirit_tiger", "spirit_lynx", "spirit_turtle", "spirit_bear", "spirit_bear_tamed", "spirit_tiger_tamed", "spirit_turtle_tamed", "spirit_lynx_tamed" ]
+  }
+]

@@ -69,6 +69,29 @@
     "use_action": { "type": "cast_spell", "spell_id": "bear_might", "no_fail": true, "level": 5 }
   },
   {
+    "id": "spirit_fang_lynx",
+    "type": "TOOL",
+    "name": { "str_sp": "lynx spirit fang" },
+    "description": "A fang that has been magically attuned to a spirit of nature. Activate to cut yourself with it, invoking the power of its spirit. Recharges with the passage of time. This one is attuned to the wisdom of nature, the spirit of the lynx.",
+    "weight": "50 g",
+    "volume": "100 ml",
+    "price": 150,
+    "material": [ "bone" ],
+    "symbol": "f",
+    "color": "red",
+    "flags": [
+      "NONCONDUCTIVE",
+      "MAGIC_FOCUS",
+      "NO_REPAIR",
+      "NO_SALVAGE"
+    ],
+    "charges_per_use": 1,
+    "ammo": [ "spirit_essence_lynx" ],
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3600 s", "regenerate_ammo": true } },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "spirit_essence_lynx": 1 } } ],
+    "use_action": { "type": "cast_spell", "spell_id": "lynx_wisdom", "no_fail": true, "level": 5 }
+  },
+  {
     "id": "spirit_fang_phoenix",
     "type": "TOOL",
     "name": { "str_sp": "phoenix spirit fang" },

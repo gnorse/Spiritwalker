@@ -2,14 +2,27 @@
   {
     "type": "effect_type",
     "id": "spirit_control",
-    "name": [ "Spirit control", "Spirit struggle", "Spirit dominance", "Spirit madness" ],
+    "name": [ "Spiritual control", "Spiritual struggle", "Spiritual dominance", "Spiritual madness" ],
     "desc": [ "As you summon more spirits, you feel yourself reverting to a feral nature." ],
     "rating": "neutral",
     "max_intensity": 4,
     "int_add_val": 1,
     "int_decay_tick": 6000,
     "base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ], "per_mod": [ -1 ], "int_mod": [ -1 ], "speed_mod": [ 2 ] },
-    "scaling_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ], "per_mod": [ -1 ], "int_mod": [ -1 ], "speed_mod": [ 2 ] }, "pain_min": [ 1 ], "pain_chance": [ 8 ] },
+    "scaling_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ], "per_mod": [ -1 ], "int_mod": [ -1 ], "speed_mod": [ 2 ], "pain_min": [ 1 ], "pain_chance": [ 8 ] },
+    "show_in_info": true
+  },
+  {
+    "type": "effect_type",
+    "id": "spirit_harmony",
+    "name": [ "Spiritual focus", "Spiritual unity", "Spiritual harmony" ],
+    "desc": [ "As you summon more tamed spirits, you feel yourself ascending to a higher state of being." ],
+    "rating": "good",
+    "max_intensity": 3,
+    "int_add_val": 1,
+    "int_decay_tick": 6000,
+    "base_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ], "per_mod": [ 1 ], "int_mod": [ 1 ] },
+    "scaling_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ], "per_mod": [ 1 ], "int_mod": [ 1 ] },
     "show_in_info": true
   }
 ]

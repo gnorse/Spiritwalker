@@ -7,7 +7,7 @@
       { "monster": "mon_spiritwalker_tiger", "freq": 6, "cost_multiplier": 10 },
       { "monster": "mon_spiritwalker_turtle", "freq": 6, "cost_multiplier": 10 },
       { "monster": "mon_spiritwalker_bear", "freq": 6, "cost_multiplier": 10 },
-      { "monster": "mon_spiritwalker_phoenix", "freq": 3, "cost_multiplier": 10 }
+      { "monster": "mon_spiritwalker_lynx", "freq": 6, "cost_multiplier": 10 }
     ]
   }
 ]
